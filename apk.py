@@ -48,12 +48,12 @@ parser.add_argument("--to", required=True, help="Número de teléfono del destin
 
 args = parser.parse_args()
 
-url = "https://api.ultramsg.com/instance110175/messages/document?token=119j5ajairnd2lm2&priority=10"
+url = ""
 
 payload = {
     "to": args.to,
-    "filename": "test.PDF",
-    "document": "https://751d-2806-2f0-a041-f52a-da00-b151-12a-5cdb.ngrok-free.app/BlackMart.apk",    
+    "filename": "",
+    "document": "",    
     "referenceId": ""
 }
 
