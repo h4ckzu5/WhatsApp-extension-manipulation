@@ -29,5 +29,11 @@ options:
   --to TO     Número de teléfono del destinatario con código de país, e.g., +52...
 
 
+
+https://github.com/user-attachments/assets/b86a89ef-2218-4d70-8875-0350c0bdbc33
+
+
+
+
 Descargo de responsabilidad
 Este software se proporciona "tal cual", sin garantía de ningún tipo, expreso o implícito, incluyendo pero no limitado a las garantías de comerciabilidad, aptitud para un propósito particular, y sin infracción. En ningún caso los autores o titulares de derechos de autor serán responsables de cualquier reclamación, daños u otra responsabilidad, ya sea en una acción de contrato, responsabilidad civil, o de otra manera, derivada de, fuera o en conexión con el software o el uso u otros tratos en el software.
