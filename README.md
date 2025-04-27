@@ -20,7 +20,7 @@ Paso 3: Rellene los campos apropiados en wp.py con la información generada de l
 Paso 4: Introduzca el número de destino en el campo "entrar en el número "entrar" y subir su archivo al servidor (esto puede ser un servidor de ngrok o pitón. Si estás probando localmente, puedes usar XAMPP).
 Paso 5: Ejecute el archivo apk.py y vea el mensaje enviado.
 
-usage: apk.py [-h] --to TO
+usage: python3 apk.py [-h] --to "NUMERO CELULAR"
 
 options:
 
