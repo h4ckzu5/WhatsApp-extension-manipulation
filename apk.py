@@ -1,6 +1,6 @@
 import requests
 import argparse
-
+                         // dejo mas colores por si gustan cambiarlo //
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -44,10 +44,10 @@ parser = argparse.ArgumentParser(description=print(  color.OKGREEN + """
 ╦ ╦┬ ┬┌─┐┌┬┐┌─┐╔═╗┌─┐┌─┐   ┌─┐─┐ ┬┌┬┐┌─┐┌┐┌┌─┐┬┌─┐┌┐┌   ┌┬┐┌─┐┌┐┌┬┌─┐┬ ┬┬  ┌─┐┌┬┐┬┌─┐┌┐┌  
 ║║║├─┤├─┤ │ └─┐╠═╣├─┘├─┘───├┤ ┌┴┬┘ │ ├┤ │││└─┐││ ││││───│││├─┤││││├─┘│ ││  ├─┤ │ ││ ││││  
 ╚╩╝┴ ┴┴ ┴ ┴ └─┘╩ ╩┴  ┴     └─┘┴ └─ ┴ └─┘┘└┘└─┘┴└─┘┘└┘   ┴ ┴┴ ┴┘└┘┴┴  └─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘  """ + color.END))
-parser.add_argument("--to", required=True, help="Número de teléfono del destinatario (con código de país, e.g., +52...")
+parser.add_argument("--to", required=True, help="Número de teléfono del destinatario con código de país, e.g., +52...")
 
 args = parser.parse_args()
-
+                                    // llenar los datos con la api //
 url = ""
 
 payload = {
