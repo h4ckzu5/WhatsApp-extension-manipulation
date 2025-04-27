@@ -1,3 +1,5 @@
+Greeatings To: @TeamWhoami @ElixSec @WitcheRHash @C0d3r17 
+
 ![imagen](https://github.com/user-attachments/assets/cc7b3468-e325-4e73-aa8e-1e90c5bdfd72)
 
 
@@ -15,7 +17,7 @@ Paso 3: Rellene los campos apropiados en wp.py con la información generada de l
 
 
 Paso 4: Introduzca el número de destino en el campo "entrar en el número "entrar" y subir su archivo al servidor (esto puede ser un servidor de ngrok o pitón. Si estás probando localmente, puedes usar XAMPP).
-Paso 5: Ejecute el archivo wp.py y vea el mensaje enviado.
+Paso 5: Ejecute el archivo apk.py y vea el mensaje enviado.
 
 usage: apk.py [-h] --to TO
 
